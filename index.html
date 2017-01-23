@@ -7,12 +7,36 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <style>
+        .row div{padding: 20px 10px; border: 1px solid;}
+    </style>
   </head>
   <body>
 
-    <div class="container" style="background: #ccc">This is a fixed container</div>
-    <div class="container-fluid" style="background: #aaa">This is a fluid container</div>
-    
+    <div class="container">
+
+        <div class="row" style="background: lightblue;">
+            <div class="col-md-6">col-md-6</div>
+            <div class="col-md-6">col-md-6</div>
+        </div>
+
+        <div class="row" style="background: pink;">
+            <div class="col-sm-6 col-lg-3">col-sm-6 & col-lg-3</div>
+            <div class="col-sm-6 col-lg-3">col-sm-6 & col-lg-3</div>
+            <div class="col-sm-6 col-lg-3">col-sm-6 & col-lg-3</div>
+            <div class="col-sm-6 col-lg-3">col-sm-6 & col-lg-3</div>
+        </div>
+
+        <div class="row" style="background: yellow;">
+            <div class="col-3">col-3</div>
+            <div class="col-3">col-3</div>
+            <div class="col-3">col-3</div>
+            <div class="col-3">col-3</div>
+        </div>
+
+    </div>
+
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
